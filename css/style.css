@@ -9,6 +9,10 @@ a {
 li {
   list-style: none;
 }
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
 .link-logo,
 .link-logo1 {
   font-family: "Raleway", sans-serif;
@@ -49,6 +53,15 @@ address {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+.flexcont {
+  display: flex;
+}
+.flexnav {
+  display: flex;
+}
+.flex-header-adress {
+  display: flex;
 }
 .heading {
   background-color: #2f303a;
@@ -110,6 +123,10 @@ address {
 .value {
   background: #e5e5e5;
 }
+
+.values-item {
+  display: flex;
+}
 .text1 {
   font-family: Roboto;
   font-style: normal;
@@ -144,6 +161,9 @@ address {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+.working-item {
+  display: flex;
 }
 
 .nametext {
