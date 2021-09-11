@@ -3,6 +3,9 @@
   --main-two-color: #757575;
   --main-tree-color: #212121;
 }
+* {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
@@ -24,6 +27,11 @@ li {
   letter-spacing: 0.03em;
   text-align: left;
   color: #2196f3;
+  margin-right: 93px;
+}
+.menu:last-child,
+.adres-link:last-child {
+  margin-right: 0;
 }
 .span {
   color: black;
@@ -40,7 +48,9 @@ li {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  padding-left: 0;
 }
+
 address {
   font-style: normal;
   font-family: Roboto;
@@ -57,17 +67,27 @@ address {
 .flexcont {
   display: flex;
 }
+.flexcont-header {
+  height: 80px;
+  align-items: center;
+}
 .flexnav {
   display: flex;
 }
 .flex-header-adress {
   display: flex;
+  padding-left: 0;
+  margin-left: auto;
 }
 .heading {
   background-color: #2f303a;
   text-align: center;
+  height: 600px;
 }
 
+.menu {
+  margin-right: 50px;
+}
 .menu-link {
   color: var(--main-tree-color);
 }
@@ -75,6 +95,10 @@ address {
 .menu-link:focus,
 .menu-link:active {
   color: var(--main-bg-color);
+}
+.adres-link {
+  margin-right: 50px;
+  margin-left: auto;
 }
 .adres-link1:hover,
 .adres-link1:focus,
@@ -96,6 +120,8 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0 auto;
+  width: 452px;
 }
 
 .blue {
