@@ -64,6 +64,9 @@ address {
 
   color: #ffffff;
 }
+header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 .flexcont {
   display: flex;
 }
@@ -307,6 +310,19 @@ footer {
   color: #212121;
 }
 
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.portfolio-item {
+  margin-right: 8px;
+}
+.portfolioworks-item:last-child {
+  margin-right: 0;
+}
+
 .portfolio-button {
   background: #f5f4fa;
   border-radius: 4px;
@@ -331,6 +347,24 @@ footer {
 .portfolio-button:active {
   background: #2196f3;
   color: #ffffff;
+}
+.portfolioworks-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-bottom: 94px;
+}
+
+.portfolioworks-item {
+  margin-right: 30px;
+}
+.portfolioworks-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.tex21,
+.text2 {
+  text-align: center;
 }
 
 .visually-hidden {
