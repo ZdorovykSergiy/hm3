@@ -357,14 +357,18 @@ footer {
 
 .portfolioworks-item {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 .portfolioworks-item:nth-child(3n) {
   margin-right: 0;
 }
+.mb {
+  margin-bottom: 0;
+}
 
 .tex21,
 .text2 {
-  text-align: center;
+  margin-left: 24px;
 }
 
 .visually-hidden {
