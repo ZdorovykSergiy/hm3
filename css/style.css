@@ -300,6 +300,7 @@ footer {
 }*/
 footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 .adres-link2 {
   font-family: Roboto;
@@ -312,6 +313,16 @@ footer {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-link {
+  margin-bottom: 9px;
+}
+.footer-link:last-child {
+  margin-bottom: 0px;
 }
 
 /* портфолио*/
