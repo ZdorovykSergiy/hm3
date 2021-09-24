@@ -20,6 +20,9 @@ li {
 img {
   display: block;
 }
+ul {
+  padding: 0;
+}
 .link-logo,
 .link-logo1 {
   font-family: "Raleway", sans-serif;
@@ -73,7 +76,7 @@ header {
 }
 .flexcont {
   display: flex;
-  padding: 24px 0;
+  padding: 0;
 }
 .flexcont-header {
   align-items: center;
@@ -97,6 +100,8 @@ header {
 }
 .menu-link {
   color: var(--main-tree-color);
+  padding: 36px 0;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus,
@@ -187,6 +192,7 @@ header {
   color: #212121;
 }
 .text2 {
+  margin-left: 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -229,8 +235,8 @@ header {
 }
 
 .teamblocktext {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .nametext {
   font-family: Roboto;
@@ -322,7 +328,11 @@ footer {
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 20px;
+}
+.footer-adress-text {
+  margin-bottom: 9px;
 }
 .footer-link {
   margin-bottom: 9px;

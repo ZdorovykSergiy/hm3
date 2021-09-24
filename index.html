@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Homework</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,8 +50,10 @@
     <main>
       <section class="heading">
         <!--Заголовок-->
-        <h1 class="headerh1">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button-header">Заказать услугу</button>
+        <div class="container">
+          <h1 class="headerh1">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button-header">Заказать услугу</button>
+        </div>
       </section>
       <section class="values">
         <div class="container">
@@ -56,28 +61,28 @@
           <!--наши ценности-->
           <ul class="values-item">
             <li class="values-list">
-              <p class="text1">Внимание к деталям</p>
+              <h3 class="text1">Внимание к деталям</h3>
               <p class="text2">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="values-list">
-              <p class="text1">Пунктуальность</p>
+              <h3 class="text1">Пунктуальность</h3>
               <p class="text2">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="values-list">
-              <p class="text1">Планирование</p>
+              <h3 class="text1">Планирование</h3>
               <p class="text2">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="values-list">
-              <p class="text1">Современные технологии</p>
+              <h3 class="text1">Современные технологии</h3>
               <p class="text2">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -164,28 +169,25 @@
     </main>
     <footer>
       <div class="container">
-      <nav>
-        <ul>
-          <li class="footer-logo">
-            <a href="#" class="link-logo1"
-              >Web<span class="span1">Studio</span></a
-            >
-          </li>
-          <li class="adres-link footer-link">
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-          </li>
-          <li class="footer-link">
-            <a href="mailto:info@devstudio.com" class="adres-link2"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-link">
-            <a href="tel:+380961111111" class="adres-link2"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </nav></div>
+        <a href="#" class="link-logo1 footer-logo"
+          >Web<span class="span1">Studio</span></a
+        >
+        <address>
+          <p class="footer-adress-text">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul>
+            <li class="footer-link">
+              <a href="mailto:info@devstudio.com" class="adres-link2"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-link">
+              <a href="tel:+380961111111" class="adres-link2"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
