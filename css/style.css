@@ -355,6 +355,7 @@ footer {
   letter-spacing: 0.06em;
 
   color: #212121;
+  margin-bottom: 4px;
 }
 .portfolio-section {
   padding: 94px 0;
@@ -366,6 +367,9 @@ footer {
 }
 .portfolio-item {
   margin-right: 8px;
+}
+.portfolio-item:last-child {
+  margin-right: 0px;
 }
 .portfolioworks-item:last-child {
   margin-right: 0;
@@ -401,7 +405,9 @@ footer {
   flex-wrap: wrap;
   padding-left: 0;
 }
-
+.portfolioworks-block {
+  padding: 20px 24px;
+}
 .portfolioworks-item {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -413,9 +419,9 @@ footer {
   margin-bottom: 0;
 }
 
-.tex21 {
+/* .tex21 {
   margin-left: 24px;
-}
+} */
 
 .visually-hidden {
   position: absolute;
