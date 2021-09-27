@@ -36,6 +36,9 @@ ul {
   color: #2196f3;
   margin-right: 93px;
 }
+.link-logo1 {
+  margin-right: 0;
+}
 .menu:last-child,
 .adres-link:last-child {
   margin-right: 0;
@@ -76,7 +79,7 @@ header {
 }
 .flexcont {
   display: flex;
-  padding: 0;
+  /* padding: 0; */
 }
 .flexcont-header {
   align-items: center;
@@ -192,7 +195,6 @@ header {
   color: #212121;
 }
 .text2 {
-  margin-left: 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -354,11 +356,12 @@ footer {
 
   color: #212121;
 }
-
+.portfolio-section {
+  padding: 94px 0;
+}
 .portfolio-items {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 .portfolio-item {
@@ -397,7 +400,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .portfolioworks-item {
